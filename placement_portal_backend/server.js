@@ -2,10 +2,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const studentRoutes = require('./routes/student.routes');
+const studentRoutes = require('./routes/studentroutes');
 const dotenv = require('dotenv');
 const jobRoutes = require('./routes/jobs');
-const tpoRoutes = require('./routes/tpo.routes');
+const tpoRoutes = require('./routes/tporoutes');
 
 dotenv.config();
 
